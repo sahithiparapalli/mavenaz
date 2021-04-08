@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: DDemoMaven.MavenDemo.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.428 s <<< FAILURE! - in DDemoMaven.MavenDemo.LoginTest
+openApp on openApp(DDemoMaven.MavenDemo.LoginTest)(DDemoMaven.MavenDemo.LoginTest)  Time elapsed: 20.757 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+The driver server has unexpectedly died!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Sonys-MacBook-Air.local', ip: 'fe80:0:0:0:85a:2acd:e79:bf19%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14.0.1'
+Driver info: driver.version: FirefoxDriver
+	at DDemoMaven.MavenDemo.LoginTest.setup(LoginTest.java:18)
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:36119
+	at DDemoMaven.MavenDemo.LoginTest.setup(LoginTest.java:18)
+Caused by: java.net.ConnectException: Connection refused
+	at DDemoMaven.MavenDemo.LoginTest.setup(LoginTest.java:18)
+
